@@ -1,0 +1,20 @@
+<div class="example-container">
+
+  <!-- ヘッダー-->
+  <app-header (sidenavToggled)="sidenav.toggle()" [sidenav]="sidenav"></app-header>
+
+  <mat-sidenav-container class="example-sidenav-container">
+
+    <!-- メインコンテンツ -->
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+    <!-- サイトメニュー -->
+    <mat-sidenav mode="over" #sidenav>
+      <app-side-menu></app-side-menu>
+    </mat-sidenav>
+
+  </mat-sidenav-container>
+
+</div>

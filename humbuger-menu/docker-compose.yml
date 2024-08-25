@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  angular:
+    build:
+      context: .
+    command: ng serve --host 0.0.0.0
+    user: node:node
+    volumes:
+      - ./humbuger-menu:/home/node/humbuger-menu
+    working_dir: /home/node/humbuger-menu
+    ports:
+      - "4200:4200"
