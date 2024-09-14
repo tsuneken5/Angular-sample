@@ -23,7 +23,6 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';  
     PortalModule,   // 追加
     MatProgressSpinnerModule  // 追加
   ],
-  entryComponents: [SpinnerComponent],  // 追加
   providers: [],
   bootstrap: [AppComponent]
 })
