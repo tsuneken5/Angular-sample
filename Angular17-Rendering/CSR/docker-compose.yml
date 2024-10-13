@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  angular:
+    build:
+      context: .
+    command: ng serve --host 0.0.0.0
+    user: node:node
+    volumes:
+      - ./sample-app:/home/node/sample-app
+    working_dir: /home/node/sample-app
+    ports:
+      - "4200:4200"
