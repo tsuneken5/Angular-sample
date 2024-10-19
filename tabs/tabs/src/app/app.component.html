@@ -1,5 +1,5 @@
 <nav mat-tab-nav-bar [tabPanel]="tabPanel">
-  <a mat-tab-link *ngFor="let routeLink of routeLinks" routerLink="{{ routeLink.path }}" routerLinkActive
+  <a mat-tab-link *ngFor="let routeLink of routeLinks" [routerLink]="routeLink.path" routerLinkActive
     #rla="routerLinkActive" [active]="rla.isActive">
     {{ routeLink.label }}
   </a>
