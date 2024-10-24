@@ -20,3 +20,6 @@ $ docker-compose up -d
 
 # 確認
 ブラウザから localhost:4200/ にアクセス
+
+# 解説（ブログ）
+[【Angular】Angular Materialでのローディングスピナー](https://engineer.tsuneken5.com/2024/09/05/angular-loading-spiner/)

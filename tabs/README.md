@@ -16,3 +16,6 @@ $ docker-compose run --rm angular npm install
 $ docker-compose up -d
 ```
 ブラウザから localhost:4200/ にアクセス
+
+# 解説（ブログ）
+[【Angular】Angular Materialでのタブの実装](https://engineer.tsuneken5.com/2024/10/20/angular-tabs/)

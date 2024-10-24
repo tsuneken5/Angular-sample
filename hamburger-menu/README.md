@@ -21,3 +21,5 @@ $ docker-compose up -d
 # 確認
 ブラウザから localhost:4200/ にアクセス
 
+# 解説（ブログ）
+[【Angular】Angular Materialでのハンバーガーメニュー](https://engineer.tsuneken5.com/2024/10/16/angular-hamburger-menu/)
