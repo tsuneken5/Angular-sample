@@ -1,0 +1,12 @@
+.form-area {
+  margin-top: 20px;
+}
+
+.form-field {
+  width: 100%;
+  height: 40vh;
+}
+
+.marked-textarea {
+  resize: none;
+}

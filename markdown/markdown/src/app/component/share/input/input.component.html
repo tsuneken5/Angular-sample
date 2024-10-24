@@ -1,0 +1,9 @@
+<div class="form-area">
+  <form>
+    <mat-form-field class="form-field" #fieldElement>
+      <textarea matInput [(ngModel)]="message" [ngStyle]="testareaStyle" name="marked-textarea"
+        class="marked-textarea"></textarea>
+    </mat-form-field>
+  </form>
+  <button mat-flat-button color="primary" (click)="onParse()">Parse</button>
+</div>
