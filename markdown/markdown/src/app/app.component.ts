@@ -14,10 +14,11 @@ export class AppComponent {
   title = 'markdown';
 
   public routeLinks = [
-    { label: 'marked', path: '/marked' },
-    { label: 'highlight', path: '/highlight' },
-    { label: 'katex', path: '/katex' },
-    { label: 'mathjax', path: '/mathjax' },
-    { label: 'mermaid', path: '/mermaid' },
+    { label: 'Marked', path: '/marked' },
+    { label: 'Highlight', path: '/highlight' },
+    { label: 'KaTeX', path: '/katex' },
+    { label: 'MathJax', path: '/mathjax' },
+    { label: 'Mermaid', path: '/mermaid' },
+    { label: 'Marded + KaTeX + Mermaid', path: '/markdown' },
   ];
 }
