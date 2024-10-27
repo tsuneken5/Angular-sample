@@ -27,3 +27,5 @@ $ docker-compose up -d
 [【Angular】KaTeX or MathJax で数式を表示する](https://engineer.tsuneken5.com/2024/10/25/angular-math/)
 
 [【Angular】Mermaidで図を描画する](https://engineer.tsuneken5.com/2024/10/25/angular-mermaid/)
+
+[【Angular】Marked + Highlight.js + KaTeX + Mermaid を同時に使用する](https://engineer.tsuneken5.com/2024/10/26/angular-markdown-2/)
