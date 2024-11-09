@@ -1,0 +1,7 @@
+<mat-card>
+  <mat-card-actions>
+    <button mat-button color="primary" (click)="file.click()"><mat-icon> attach_file</mat-icon>UPLOAD
+      IMAGE</button>
+    <input hidden type="file" id="file" (change)="selectFile()" #file accept="image/x-png, image/jpeg">
+  </mat-card-actions>
+</mat-card>
