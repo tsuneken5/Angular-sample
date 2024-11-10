@@ -16,5 +16,6 @@ export class AppComponent {
   public routeLinks = [
     { label: 'MobileNet', path: 'mobilenet' },
     { label: 'COCO SSD', path: 'coco-ssd' },
+    { label: 'Body Segmentation', path: 'body-segmentation' },
   ];
 }

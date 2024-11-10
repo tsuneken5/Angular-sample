@@ -42,7 +42,6 @@ export class CocoSsdComponent {
     await this.canvasService.uploadImage(image, width, this.canvas);
 
     const results = await this.detect();
-    console.log(results);
 
     for (const result of results) {
       await this.canvasService.drawBox(result.bbox, this.canvas);
