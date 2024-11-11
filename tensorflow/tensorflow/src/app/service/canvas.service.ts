@@ -64,11 +64,11 @@ export class CanvasService {
     ctx.strokeRect(...box);
   }
 
-  public markPoint(x: number, y: number, canvas: HTMLCanvasElement): void {
+  public markPoint(x: number, y: number, color: string, canvas: HTMLCanvasElement): void {
     const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
 
-    ctx.strokeStyle = '#f00';
-    ctx.fillStyle = '#f00';
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
     ctx.lineWidth = 1;
 
     ctx.beginPath();
@@ -77,11 +77,11 @@ export class CanvasService {
     ctx.fill();
   }
 
-  public strokeLine(x1: number, y1: number, x2: number, y2: number, canvas: HTMLCanvasElement): void {
+  public strokeLine(x1: number, y1: number, x2: number, y2: number, color: string, canvas: HTMLCanvasElement): void {
     const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
 
-    ctx.strokeStyle = '#00f';
-    ctx.lineWidth = 3;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 1;
 
     ctx.beginPath();
     ctx.moveTo(x1, y1);

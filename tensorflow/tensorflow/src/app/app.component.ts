@@ -17,5 +17,7 @@ export class AppComponent {
     { label: 'MobileNet', path: 'mobilenet' },
     { label: 'COCO SSD', path: 'coco-ssd' },
     { label: 'Body Segmentation', path: 'body-segmentation' },
+    { label: 'Pose Detection', path: 'pose-detection' },
+    { label: 'Depth Estimation', path: 'depth-estimation' },
   ];
 }
