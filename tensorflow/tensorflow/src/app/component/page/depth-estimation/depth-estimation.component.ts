@@ -106,9 +106,12 @@ export class DepthEstimationComponent {
 
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
-        const depth = depthMap[y][x];
+        let depth = depthMap[y][x];
+        if (depth == 0) {
+          depth = 1;
+        }
 
-        const colorIndex = Math.floor((1 - depth) * (this.colorMap.length - 1));
+        const colorIndex = Math.floor((depth) * (this.colorMap.length - 1));
 
         const idx = (y * width + x) * 4;
         const [r, g, b] = this.colorMap[colorIndex];
